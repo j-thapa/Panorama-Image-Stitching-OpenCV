@@ -3,9 +3,13 @@ Simple python code on Jupyter notebook to stitch images and generate Panorama. U
 The project is to implement a featured based automatic image stitching algorithm. When we input two images with overlapped fields, we expect to obtain a wide seamless panorama.
 We use scale invariant features transform(SIFT) to extract local features of the input images, K nearest neighbors algorithms to match these features and Random sample consensus(Ransac) to calculate the homograph matrix, which will be used for image warping. Finally we apply a smoothed weighted matrix as a mask for image blending.
 
-https://github.com/jeniscodes/Panorama-Image-Stitching-OpenCV/blob/master/a1.jpg
+More details on https://www.youtube.com/watch?v=J1DwQzab6Jg&t=2s
 
-![ScreenShot](before stitch.JPG)
+## Before Stitching
 
-![ScreenShot](after stitch.jpg)
+![ScreenShot](before_stitch.JPG)
+
+## After Stitching
+
+![ScreenShot](after_stitch.JPG)
 
